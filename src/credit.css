@@ -1,0 +1,117 @@
+/* Card Css */
+
+.card-container {
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 40px;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto 18px auto;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.card-container input {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 30px;
+  padding: 15px 15px 15px 25px;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+.card-type {
+  width: 80px;
+  height: 56px;
+  background: url("/cards.png");
+  background-position: 0 -291px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+}
+.card-type.mastercard {
+  background-position: 0 0;
+}
+.card-type.visa {
+  background-position: 0 -115px;
+}
+.card-type.amex {
+  background-position: 0 -57px;
+}
+.card-type.discover {
+  background-position: 0 -174px;
+}
+
+
+/* hide input type no arrow */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.label-edit{
+  margin-right: 10px;
+  margin-bottom:15px;
+}
+
+.btn{
+  margin-left:10px;
+}
+
+.name{
+  width: 394px;
+  height: 40px;
+  margin-top:5px;
+  padding-left:15px;
+}
+
+.cvv-details{
+  opacity: .7;
+  color: #86939e;
+}
+
+.form-group{
+  border: 2px solid darksalmon;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: floralwhite;
+  box-shadow: 5px 10px 15px goldenrod;
+}
+
+.btn-warning-gred{
+  background-image: linear-gradient(red, yellow);
+}
+
+.input-field{
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.cvv-field{
+  padding: 3px;
+  width: 60px;
+}
+
+.input-sm{
+  padding: 3px;
+  margin-right: 5px;
+}
+
+.label-edit{
+  font-weight: bold;
+  font-family: serif;
+  font-size:17px;
+  text-shadow: 2px 2px 4px grey;
+}
+
